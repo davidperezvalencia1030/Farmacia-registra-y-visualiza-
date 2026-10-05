@@ -1,0 +1,84 @@
+.Registrar_Medi{
+   width: 900px;         /* Ancho del cuadro */
+  height: 400px;        /* Alto del cuadro */
+  background-color: #e0e3e4; /* Color de fondo (azul) */
+  border:none;
+  border-radius: 10px;  /* Bordes redondeados (opcional) */
+  text-align: center;
+  margin: 5% 20%;
+   box-shadow: 0 4px 8px rgb(0, 0, 0);
+     transition: transform 0.6s ease, box-shadow 0.6s ease;
+     display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;   
+      color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+  position: absolute;
+  text-decoration: none;
+}
+
+.Registrar_Medi:hover {
+  transform: scale(1.1); /* Aumenta tamaño un 10% */
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.715); /* Sombra más fuerte */
+  text-decoration: none;
+}
+
+
+
+.Visualizar{
+   width: 300px;         /* Ancho del cuadro */
+  height: 500px;        /* Alto del cuadro */
+  background-color: #e0e3e4; /* Color de fondo (azul) */
+  border:none;
+  border-radius: 10px;  /* Bordes redondeados (opcional) */
+  text-align: center;
+  margin: 5% 75%;
+   box-shadow: 0 4px 8px rgb(0, 0, 0);
+     transition: transform 0.6s ease, box-shadow 0.6s ease;
+     display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;   
+      color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+  position: absolute;
+  text-decoration: none;
+}
+
+.Visualizar:hover {
+  transform: scale(1.1); /* Aumenta tamaño un 10% */
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.715); /* Sombra más fuerte */
+  text-decoration: none;
+}
+
+
+
+.Editar{
+   width: 900px;         /* Ancho del cuadro */
+  height: 200px;        /* Alto del cuadro */
+  background-color: #e0e3e4; /* Color de fondo (azul) */
+  border:none;
+  border-radius: 10px;  /* Bordes redondeados (opcional) */
+  text-align: center;
+  margin: 30% 20%;
+   box-shadow: 0 4px 8px rgb(0, 0, 0);
+     transition: transform 0.6s ease, box-shadow 0.6s ease;
+     display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;   
+      color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+  position: absolute;
+   text-decoration: none;
+}
+
+.Editar:hover {
+  transform: scale(1.1); /* Aumenta tamaño un 10% */
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.715); /* Sombra más fuerte */
+   text-decoration: none;
+}

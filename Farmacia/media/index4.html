@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style4.css">
+  <title>Registro</title>
+</head>
+<body>
+
+  <!-- Solo un formulario, con action apuntando al archivo PHP -->
+  <form id="medForm" action="procesar.php" method="POST" enctype="multipart/form-data">
+    <h2>Registro de Medicamento</h2>
+    
+    <label for="nombre">Nombre del medicamento</label>
+    <input type="text" id="nombre" name="nombre" required>
+    
+    <label for="tipo">Tipo</label>
+    <select id="tipo" name="tipo" required>
+      <option value="Pastilla">Pastilla</option>
+      <option value="Bebible">Bebible</option>
+      <option value="Inyectado">Inyectado</option>
+    </select>
+    
+    <label for="categoria">Categoría</label>
+    <select id="categoria" name="categoria" required>
+      <option value="Analgésico">Analgésico</option>
+      <option value="Laxante">Laxante</option>
+      <option value="Antibiótico">Antibiótico</option>
+      <option value="Otro">Otro</option>
+    </select>
+    
+    <label for="imagen">Imagen del medicamento</label>
+    <input type="file" id="imagen" name="imagen" accept="image/*" required>
+    
+    <label for="descripcion">Descripción</label>
+    <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+   
+    <button type="submit">Registrar</button>
+
+    <a href="index3.html"><p>Regresar</p></a>
+  </form>
+
+  <script src="srcipt.js"></script>
+</body>
+</html>
